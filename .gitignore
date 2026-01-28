@@ -1,0 +1,33 @@
+# Emacs backup files
+*~
+\#*\#
+.\#*
+
+# Emacs auto-save files
+*.elc
+auto-save-list
+tramp
+
+# Emacs lock files
+.#*
+
+# Flymake / Flycheck
+*_flymake.*
+.flycheck
+
+# Emacs desktop / session files
+.emacs.desktop
+.emacs.desktop.lock
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# Projectile
+.projectile
+
+# lsp-mode
+.lsp-session-v1
+
+# direnv / envrc edits from Emacs
+.envrc~
