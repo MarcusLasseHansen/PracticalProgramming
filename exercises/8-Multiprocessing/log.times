@@ -1,0 +1,7 @@
+\
+	set terminal svg ;\
+	set output "times.svg" ;\
+	set xlabel "number of threads" ;\
+	set ylabel "real time" ;\
+	plot "out.times" using 1:2 with linespoints title "times" ;\
+	
