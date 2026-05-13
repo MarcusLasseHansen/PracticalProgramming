@@ -48,4 +48,4 @@ benchmark_tool.o: benchmark_tool.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	$(RM) test_suite benchmark_tool $(SHARED_OBJS) test_suite.o benchmark_tool.o Out.txt err out out.times.data Out.png fit.log
+	$(RM) test_suite benchmark_tool $(SHARED_OBJS) test_suite.o benchmark_tool.o Out.txt err out out.times.data Out.png fit.log *.o

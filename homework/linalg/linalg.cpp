@@ -140,6 +140,7 @@ void matrix::swap_cols(size_t j1, size_t j2) {
   std::swap(elements[j1], elements[j2]);
 }
 
+//implemented withthe help of AI
 double matrix::det() const {
   if (!this->is_square())
     throw std::invalid_argument("Determinant called on a non-square matrix");
