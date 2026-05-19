@@ -6,9 +6,9 @@ NTERMS :=1e9
 
 .PHONY: all clean
 
-all: times.svg
+all: Times.svg
 
-times.svg: out.times
+Times.svg: out.times
 	echo '\
 		set terminal svg ;\
 		set output "$@" ;\
@@ -27,4 +27,4 @@ main: main.cpp
 	$(CXX) $(CXXFLAGS) $< -o $@ $(LDLIBS)
 
 clean:
-	rm -f main out.times log.main times.svg log.times
+	rm -f main out.times log.main Times.svg log.times

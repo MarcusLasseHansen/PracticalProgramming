@@ -14,4 +14,4 @@ sfuns.o : sfuns.cpp
 
 .PHONEY:clean
 clean:
-	$(RM) main main.o Out.txt
+	$(RM) main main.o Out.txt sfuns.o 

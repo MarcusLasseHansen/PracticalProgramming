@@ -18,7 +18,7 @@ double fgamma(double x) {
 
 double lnfgamma(double x) {
   if (x <= 0)
-    return NaN; // Not-a-Number
+    return NaN;
   if (x < 9)
     return lnfgamma(x + 1) - std::log(x);
 

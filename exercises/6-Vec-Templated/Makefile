@@ -12,4 +12,4 @@ main.o : main.cpp
 
 .PHONEY:clean
 clean:
-	$(RM) main main.o Out.txt
+	$(RM) main main.o Out.txt vec.o

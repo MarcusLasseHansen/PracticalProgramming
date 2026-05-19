@@ -1,7 +1,6 @@
 #pragma once
 #include "../linalg/linalg.hpp"
 #include <functional>
-#include <algorithm>
 
 
 namespace pracprog {
