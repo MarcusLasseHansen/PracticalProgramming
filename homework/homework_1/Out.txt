@@ -1,0 +1,10 @@
+Exercise A.2 checks:
+R triangular?: true
+Q^(T)Q = I?: true
+QR=A: true
+Exercise A.3 checks:
+Ax=b?: true
+Exercise A.4 checks:
+det(A)=det(R)?: true
+Exercise B checks:
+A*A_inverse=I?: true

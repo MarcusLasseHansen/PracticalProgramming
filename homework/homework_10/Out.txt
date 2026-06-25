@@ -1,0 +1,15 @@
+--A CHECKS--
+Maximum error: 0.001528
+[PASS]
+--All A checks passed--
+--B CHECKS--
+max error vs finite-diff:
+  1st derivative: 0.00000025
+  2nd derivative: 0.00000155
+  antiderivative max error: 0.00000004
+[PASS]
+--All B checks passed--
+--C CHECKS--
+Max error vs cos(x): 0.00539394
+[PASS]
+--All C checks passed--

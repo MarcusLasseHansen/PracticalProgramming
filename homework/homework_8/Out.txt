@@ -1,0 +1,17 @@
+--A CHECKS--
+Calculated roots of rosenbrock gradient: [ 0.999999999682386842 0.999999999355145608 ]
+Expected roots: [ 1.00 1.00 ]
+[PASS]
+Calculated minima of himmelblau function:
+[ 3.00000000000000044 1.99999999999999933 ]
+[ -3.77931025337774695 -3.28318599128616961 ]
+Expected roots:
+[ 3.00 2.00 ]
+[ -3.77931 -3.28319 ]
+[PASS]
+--All A checks passsed--
+--C CHECKS--
+sqrt(2) root: [ 1.41421356237471496 ]
+Expected: [ 1.41421356 ]
+[PASS]
+--All C checks passsed--

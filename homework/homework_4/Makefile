@@ -25,15 +25,15 @@ Lin_spline.png: linear_data.txt
 	@printf 'set output "Lin_spline.png"\n' >> plot.gnu
 	@printf 'set title "Linear Spline vs cos(x)"\n' >> plot.gnu
 	@printf 'set xlabel "x"; set ylabel "y"\n' >> plot.gnu
-	@printf 'plot "Out.txt" using 1:2 with lines lw 2 lc rgb "red" title "Spline", \\\n' >> plot.gnu
-	@printf '     "Out.txt" using 1:3 with lines lw 2 lc rgb "blue" title "cos(x)"\n' >> plot.gnu
+	@printf 'plot "linear_data.txt" using 1:2 with lines lw 2 lc rgb "red" title "Spline", \\\n' >> plot.gnu
+	@printf '     "linear_data.txt" using 1:3 with lines lw 2 lc rgb "blue" title "cos(x)"\n' >> plot.gnu
 
 	@# --- Integral plot ---
 	@printf 'set output "Lin_spline_int.png"\n' >> plot.gnu
 	@printf 'set title "Spline Integral vs True Integral"\n' >> plot.gnu
 	@printf 'set xlabel "x"; set ylabel "Integral"\n' >> plot.gnu
-	@printf 'plot "Out.txt" using 1:4 with lines lw 2 lc rgb "green" title "Spline Integral", \\\n' >> plot.gnu
-	@printf '     "Out.txt" using 1:5 with lines lw 2 lc rgb "black" title "True Integral"\n' >> plot.gnu
+	@printf 'plot "linear_data.txt" using 1:4 with lines lw 2 lc rgb "green" title "Spline Integral", \\\n' >> plot.gnu
+	@printf '     "linear_data.txt" using 1:5 with lines lw 2 lc rgb "black" title "True Integral"\n' >> plot.gnu
 
 	gnuplot plot.gnu
 	@$(RM) plot.gnu

@@ -1,0 +1,47 @@
+--A CHECKS--
+Calculated minimum of Rosenbrock's valley function:
+[ 0.999952675889842713 0.999905284560187235 ]
+Expected minimum: [ 1.00 1.00 ]
+Steps taken: 13
+[PASS]
+Calculated minima of Himmelblau's function:
+[ 3 2 ]
+ (steps: 5) expected [ 3.00000  2.00000 ]
+[ -2.80512 3.13131 ]
+ (steps: 5) expected [ -2.80512  3.13131 ]
+[ -3.77931 -3.28319 ]
+ (steps: 4) expected [ -3.77931 -3.28319 ]
+[ 3.58443 -1.84813 ]
+ (steps: 4) expected [  3.58443 -1.84813 ]
+[PASS]
+--All A checks passed--
+D(start) = 42.7424
+m: 125.972186697883927309 gamma: -2.086331417966710511 A: 9.876218342313116239
+Deviation of minimization results: 26.869511778685708947
+--C CHECKS--
+Calculated minimum of Rosenbrock's valley function:
+  forward: [ 0.999952675889842713 0.999905284560187235 ]
+ steps: 13 evals: 190
+  central: [ 0.999949466076474391 0.999898878990453155 ]
+ steps: 13 evals: 243
+  expected: [ 1.00 1.00 ]
+[PASS]
+Calculated minima of Himmelblau's function:
+  forward  [ 3 2 ]
+ steps: 5 evals: 76 expected [ 3.00000  2.00000 ]
+  forward  [ -2.80512 3.13131 ]
+ steps: 5 evals: 74 expected [ -2.80512  3.13131 ]
+  forward  [ -3.77931 -3.28319 ]
+ steps: 4 evals: 59 expected [ -3.77931 -3.28319 ]
+  forward  [ 3.58443 -1.84813 ]
+ steps: 4 evals: 59 expected [  3.58443 -1.84813 ]
+  central  [ 3 2 ]
+ steps: 5 evals: 97 expected [ 3.00000  2.00000 ]
+  central  [ -2.80512 3.13131 ]
+ steps: 5 evals: 95 expected [ -2.80512  3.13131 ]
+  central  [ -3.77931 -3.28319 ]
+ steps: 4 evals: 76 expected [ -3.77931 -3.28319 ]
+  central  [ 3.58443 -1.84813 ]
+ steps: 4 evals: 76 expected [  3.58443 -1.84813 ]
+[PASS]
+--All C checks passed--

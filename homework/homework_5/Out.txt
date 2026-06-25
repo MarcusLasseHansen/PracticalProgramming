@@ -1,0 +1,14 @@
+[PASS]  Exponential decay  y'=-y, y(0)=1
+        ||error|| = 7.795e-12  (tol=1.000e-06)  steps=230868
+[PASS]  Harmonic oscillator (one period)
+        ||error|| = 8.332e-11  (tol=1.000e-06)  steps=1136590
+[PASS]  Logistic equation  y'=2y(1-y), y(0)=0.1
+        ||error|| = 3.753e-11  (tol=1.000e-06)  steps=260143
+
+All A3 tests passed.
+
+[PASS]  Harmonic oscillator with friction  theta''+ 0.25*theta'+ 5*sin(theta)=0,  y0=[pi-0.1, 0]
+        ||error|| = 4.418e-11  (tol=1.000e-05)  steps=5522252
+
+All exercise A4 tests passed.
+

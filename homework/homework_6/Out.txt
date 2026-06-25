@@ -1,0 +1,46 @@
+[PASS]  sqrt(x)
+        ||error|| = 2.872e-04  (tol=1.000e-03)
+[PASS]  1/sqrt(x)
+        ||error|| = 4.553e-05  (tol=1.000e-03)
+[PASS]  sqrt(1-x^2)
+        ||error|| = 4.143e-04  (tol=1.000e-03)
+[PASS]  ln(x)/sqrt(x)
+        ||error|| = 2.787e-04  (tol=1.000e-03)
+
+All A tests passed.
+
+sqrt(x) - cc_vt evaluations: 28  standard method evaluations: 16
+1/sqrt(x) - cc_vt evaluations: 16  standard method evaluations: 248
+sqrt(1-x^2) - cc_vt evaluations: 32  standard method evaluations: 16
+ln(x)/sqrt(x) - cc_vt evaluations: 96  standard method evaluations: 272
+numpy only has trapz method that scales with the gridspace used, thus is not comparable.
+e^(-x)*sin(x) - cc_vt evaluations: 48
+[PASS]  sqrt(x)
+        ||error|| = 2.686e-04  (tol=1.000e-03)
+e^(-x^2) - cc_vt evaluations: 40
+[PASS]  sqrt(x)
+        ||error|| = 3.326e-04  (tol=1.000e-03)
+
+All B tests passed.
+
+[PASS]  exp(-x) sin(x)
+    numeric value   = 0.500268602958158
+    exact value     = 0.5
+    estimated error = 0.0005677331214586092
+    actual error    = 0.0002686029581580041
+
+[PASS]  log(x)/sqrt(x)
+    numeric value   = -3.999873856461407
+    exact value     = -4
+    estimated error = 0.001112724949043157
+    actual error    = 0.00012614353859286
+
+[PASS]  exp(-x²)
+    numeric value   = 0.885894364401709
+    exact value     = 0.8862269254527579
+    estimated error = 0.0006016953483673085
+    actual error    = 0.0003325610510489518
+
+
+All C tests passed.
+
