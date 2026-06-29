@@ -70,3 +70,10 @@ clean:
 		*.o      \
 		Out.txt \
 		*~ \
+		extra_one \
+		extra_two \
+		extra_three \
+		extra_three.data \
+		extra_two.data \
+		*.png \
+		fit.log \

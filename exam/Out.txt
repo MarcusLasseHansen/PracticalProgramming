@@ -1,4 +1,4 @@
 Extra One - What factorization is faster?
-Hessenberg took: 418 ms.
-QR took:         122 ms.
+Hessenberg took: 432 ms.
+QR took:         121 ms.
 QR factorization was faster!
